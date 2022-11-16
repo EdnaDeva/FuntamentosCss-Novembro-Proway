@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #repetir_horizontal{
+            background-image: url(imagens/gato.jfif);
+            background-repeat: repeat-x;
+        }
+        #repetir_vertical{
+            background-image: url(imagens/gato.jfif);
+            background-repeat: repeat-y;
+        }
+
+        .caixa{
+            width: 800px;
+            height: 300px;
+            border: 1px solid black;
+        }
+    </style>
+
+
+
+</head>
+<body>
+    <ul>
+        <li><p style="color: gold;">cor por nome</p></li>
+        <li><b style="color: #8686ca;">cor por hexadecimal</b></li>
+        <li><i style="color: rgb(17, 72, 120);">cor por rgb</i></li>
+        <li><p style="color: rgba(500, 10, 200, 0.8);">cor por RGB com alpha</p></li>
+    </ul>
+
+    <ol>
+        <li style="background-color: lime;"><span style="color: white;">cor</span> de fundo</li>
+        <li style="background-color: #825b5b;">cor de fundo com hexadecimal</li>
+        <li style="background-color: rgb(100, 150, 30);">cor com RGB</li>
+        <li style="background-color: rgba(200, 500, 600, 0.6) ;">cor com RGB alpha</li>
+        <li style="background-image: url(https://st2.depositphotos.com/6544740/9337/i/600/depositphotos_93376372-stock-photo-sunset-over-sea-pier.jpg);">tem uma imagem da internet</li>
+        <li style="background-image: url(imagens/gato.jfif);">tem uma imagem no meu projeto</li>
+        <li style="background-image: url(imagens/gato.jfif); background-repeat: no-repeat;">tem uma imagem que está se repetindo</li>
+        <li>
+            <div id="repetir_horizontal" class="caixa">
+                repete meu fi
+            </div>
+        </li>
+        <li>
+            <div id="repetir_vertical" class="caixa">
+                repete meu fi
+            </div>
+        </li>
+        <li></li>
+    </ol>
+
+   
+    
+
+
+</body>
+</html>
