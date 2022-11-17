@@ -1,0 +1,28 @@
+
+        .titulos{
+            color: red;
+            padding-left: 20px;
+        }
+
+        .imagem{
+            width: 100px;
+            border-radius: 50%;
+        }
+        #nome{
+            height: 100px;
+            vertical-align: 60px;
+        }
+
+        .campo{
+            font-weight: bold;
+            
+
+        }
+        .campo::after{
+           content: ": ";
+
+        }
+
+        .valor{
+            font-style: italic;
+        }
