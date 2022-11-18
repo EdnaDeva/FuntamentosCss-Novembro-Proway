@@ -1,0 +1,12 @@
+footer::after{
+    content: "Edna de Paula®";
+}
+
+header a{
+    text-decoration:none;
+    color: rgb(1, 46, 3);
+}
+
+header a:hover{
+    color: white;
+}
